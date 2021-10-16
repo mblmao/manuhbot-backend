@@ -10,7 +10,7 @@ const configuration = {
 }
 
 const sessionId = '1'
-const languageCode = 'en'
+const languageCode = 'pt-br'
 const sessionClient = new dialogflow.SessionsClient(configuration)
 
 const sessionPath = sessionClient.sessionPath(projectId, sessionId)
